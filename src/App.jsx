@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div class="bg-[#3C3D37]
-       w-[100vw] h-fit sm:h-[100vh] grid grid-cols-1 px-10 py-10 lg:px-35 lg:py-20" >
+       w-[100vw] h-[100vh] sm:h-[100vh] grid grid-cols-1 px-10 py-10 lg:px-35 lg:py-20" >
        
         <div class="bg-[#3C3D37] text-white lg:bg-black md:px-10 md:rounded-2xl  lg:py-10 md:flex md:flex-col">
         <FcGoogle  class="w-12 h-12 mb-5"/>

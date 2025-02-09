@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div class="bg-[#3C3D37]
-       w-[100vw] h-fit grid grid-cols-1 px-10 py-10 lg:px-35 lg:py-20" >
+       w-[100vw] h-fit sm:h-[100vh] grid grid-cols-1 px-10 py-10 lg:px-35 lg:py-20" >
        
         <div class="bg-[#3C3D37] text-white lg:bg-black md:px-10 md:rounded-2xl  lg:py-10 md:flex md:flex-col">
         <FcGoogle  class="w-12 h-12 mb-5"/>
@@ -44,10 +44,10 @@ function App() {
       
        </div>
 
-       <div class="grid grid-cols-2   items-center "> 
+       <div class="grid grid-cols-2  items-center "> 
        
        <section class="w-50 h-10 ">
-          <select name="language" id="language"  class="w-26 sm:w-fit h-full border-0 rounded-md px-3 text-white bg-transparent appearance-auto focus:outline-none focus:ring-0 justify-self-start">
+          <select name="language" id="language"  class="w-20 sm:w-fit h-full border-0 rounded-md  text-white bg-transparent appearance-auto focus:outline-none focus:ring-0 ">
           <option class="bg-black text-white" value="en-US">English (United States)</option>
     <option class="bg-black text-white " value="es-ES">Spanish (Spain)</option>
     <option class="bg-black text-white" value="fr-FR">French (France)</option>
@@ -60,7 +60,7 @@ function App() {
         <div class="grid grid-cols-3 gap-2 text-white justify-self-end font-light cursor-pointer" >
           <h2 class="hover:bg-sky-100/10 transition-all ease-in-out duration-300 rounded px-2 w-13">Help</h2>
           <h2 class="hover:bg-sky-100/10 transition-all ease-in-out duration-300 rounded px-2 w-16">Privacy</h2>
-          <h2 class="hover:bg-sky-100/10 transition-all ease-in-out duration-300 rounded px-3 w-15">Terms</h2>
+          <h2 class="hover:bg-sky-100/10 transition-all ease-in-out duration-300 rounded px-2 w-15">Terms</h2>
         </div>
        </div>
       
